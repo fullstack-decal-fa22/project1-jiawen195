@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="Jiawen Wu" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+    <title>Jiawen's Website</title>
+</head>
+<body>
+    <h1>Jiawen Wu</h1>
+    <h6>(Check out the bottom of the page!)</h6>
+
+    <h2 class="section">About</h2>
+    <div class="flex-box">
+        <h4 class="flex-item" id="school">School</h4>
+        <h4 class="flex-item" id="major">Major</h4>
+        <h4 class="flex-item" id="year">Year</h4>
+        <h4 class="flex-item" id="career-goal">Career Goal</h4>
+    </div>
+
+    <h2 class="section">Work</h2>
+    <div class="grid-box">
+        <div class="grid-item">
+            <h3>Academic Intern(2022 Summer):</h3>
+            <h4>Lab assissting for CS61B.</h4>
+        </div>
+        <div class="grid-item">
+            <h3>Dev Launchers Intern(2021 Summer - Present): </h3>
+            <h4>Working at the back-end team to maintain the website or develop new features.</h4>
+        </div>
+    </div>
+    
+    <h2 class="section">Conatct</h2>
+    <div class="contact">
+            <img src="linkedin.png" id="image">
+            <a href="http://www.linkedin.com/in/jiawen241wu" target="_blank"><h5>Click here to connect with me via Linkedin!</h5></a>
+        <h5>Or you can send me emails: jiawen4323@gmail.com</h5>
+    </div>
+
+    <h2 class="section">Greetings</h2>
+    <form>
+        <label>What's your name?</label>
+        <input type="text" id="text-box">
+        <button type="button" onclick="greeting(document.getElementById('text-box').value)">Submit!</button>
+    </form>
+    <div id="greeting"></div>
+    </body>
+</html>
