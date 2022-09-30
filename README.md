@@ -1,1 +1,1 @@
-[# project1-starter](https://fullstack-decal-fa22.github.io/project1-jiawen195/)
+https://fullstack-decal-fa22.github.io/project1-jiawen195/
